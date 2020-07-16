@@ -1,0 +1,27 @@
+{
+    "name": "sequally/laravel-permissions",
+    "description": "Laravel roles and permissions package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "MitchelNieuw",
+            "email": "38504052+MitchelNieuw@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "illuminate/support": "^7.20",
+        "illuminate/database": "^7.20"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sequally\\Permission\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sequally\\Permission\\RolePermissionServiceProvider"
+            ]
+        }
+    }
+}
