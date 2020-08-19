@@ -1,0 +1,2 @@
+Laravel Permissions package
+----
