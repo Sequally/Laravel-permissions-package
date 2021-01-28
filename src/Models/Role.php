@@ -27,7 +27,7 @@ class Role extends Model
      * @param string $permissionSlug
      * @return bool
      */
-    protected function hasPermissionTo(string $permissionSlug): bool
+    public function hasPermissionTo(string $permissionSlug): bool
     {
         return (bool)$this->permissions->contains('slug', $permissionSlug);
     }
